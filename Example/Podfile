@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SampleCocoaPods_Example', :exclusive => true do
+  pod 'SampleCocoaPods', :path => '../'
+end
+
+target 'SampleCocoaPods_Tests', :exclusive => true do
+  pod 'SampleCocoaPods', :path => '../'
+
+  
+end
