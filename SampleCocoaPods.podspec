@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SampleCocoaPods"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SampleCocoaPods."
+  s.summary          = "A subclass on UILabel that provides a blink."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SampleCocoaPods"
+  s.homepage         = "https://github.com/chathu87/SampleCocoaPods"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Empite-MacMini1" => "imchathu87@gmail.com" }

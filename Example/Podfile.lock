@@ -1,0 +1,14 @@
+PODS:
+  - SampleCocoaPods (0.1.0)
+
+DEPENDENCIES:
+  - SampleCocoaPods (from `../`)
+
+EXTERNAL SOURCES:
+  SampleCocoaPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SampleCocoaPods: 20c2916779e45655cdb823dd9b87a6a65b195cf7
+
+COCOAPODS: 0.39.0
